@@ -15,6 +15,10 @@
 		A01261F41EAF5DA7007A9D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01261F21EAF5DA7007A9D08 /* LaunchScreen.storyboard */; };
 		A01261FF1EAF5DA7007A9D08 /* ScrollConflict_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01261FE1EAF5DA7007A9D08 /* ScrollConflict_OCTests.m */; };
 		A012620A1EAF5DA7007A9D08 /* ScrollConflict_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01262091EAF5DA7007A9D08 /* ScrollConflict_OCUITests.m */; };
+		A012621B1EAF5DB8007A9D08 /* btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01262171EAF5DB8007A9D08 /* btn_back@3x.png */; };
+		A012621C1EAF5DB8007A9D08 /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01262181EAF5DB8007A9D08 /* btn_back@2x.png */; };
+		A012621D1EAF5DB8007A9D08 /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A012621A1EAF5DB8007A9D08 /* CustomScrollView.m */; };
+		A01262201EAF5DD2007A9D08 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A012621F1EAF5DD2007A9D08 /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		A01262051EAF5DA7007A9D08 /* ScrollConflict_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollConflict_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01262091EAF5DA7007A9D08 /* ScrollConflict_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollConflict_OCUITests.m; sourceTree = "<group>"; };
 		A012620B1EAF5DA7007A9D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01262171EAF5DB8007A9D08 /* btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@3x.png"; sourceTree = "<group>"; };
+		A01262181EAF5DB8007A9D08 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		A01262191EAF5DB8007A9D08 /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		A012621A1EAF5DB8007A9D08 /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		A012621E1EAF5DD2007A9D08 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		A012621F1EAF5DD2007A9D08 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,14 @@
 		A01261E31EAF5DA7007A9D08 /* ScrollConflict_OC */ = {
 			isa = PBXGroup;
 			children = (
+				A01262171EAF5DB8007A9D08 /* btn_back@3x.png */,
+				A01262181EAF5DB8007A9D08 /* btn_back@2x.png */,
+				A01262191EAF5DB8007A9D08 /* CustomScrollView.h */,
+				A012621A1EAF5DB8007A9D08 /* CustomScrollView.m */,
 				A01261E71EAF5DA7007A9D08 /* AppDelegate.h */,
 				A01261E81EAF5DA7007A9D08 /* AppDelegate.m */,
+				A012621E1EAF5DD2007A9D08 /* SecondVC.h */,
+				A012621F1EAF5DD2007A9D08 /* SecondVC.m */,
 				A01261EA1EAF5DA7007A9D08 /* ViewController.h */,
 				A01261EB1EAF5DA7007A9D08 /* ViewController.m */,
 				A01261ED1EAF5DA7007A9D08 /* Main.storyboard */,
@@ -246,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A012621C1EAF5DB8007A9D08 /* btn_back@2x.png in Resources */,
 				A01261F41EAF5DA7007A9D08 /* LaunchScreen.storyboard in Resources */,
+				A012621B1EAF5DB8007A9D08 /* btn_back@3x.png in Resources */,
 				A01261F11EAF5DA7007A9D08 /* Assets.xcassets in Resources */,
 				A01261EF1EAF5DA7007A9D08 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +293,8 @@
 			files = (
 				A01261EC1EAF5DA7007A9D08 /* ViewController.m in Sources */,
 				A01261E91EAF5DA7007A9D08 /* AppDelegate.m in Sources */,
+				A012621D1EAF5DB8007A9D08 /* CustomScrollView.m in Sources */,
+				A01262201EAF5DD2007A9D08 /* SecondVC.m in Sources */,
 				A01261E61EAF5DA7007A9D08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollConflict_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ScrollConflict-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScrollConflict_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yirendai.ScrollConflict-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.yidingying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

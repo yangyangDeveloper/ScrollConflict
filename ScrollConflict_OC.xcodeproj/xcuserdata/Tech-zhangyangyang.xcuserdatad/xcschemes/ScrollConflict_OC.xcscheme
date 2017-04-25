@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A01261E01EAF5DA7007A9D08"
+               BuildableName = "ScrollConflict_OC.app"
+               BlueprintName = "ScrollConflict_OC"
+               ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A01261F91EAF5DA7007A9D08"
+               BuildableName = "ScrollConflict_OCTests.xctest"
+               BlueprintName = "ScrollConflict_OCTests"
+               ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A01262041EAF5DA7007A9D08"
+               BuildableName = "ScrollConflict_OCUITests.xctest"
+               BlueprintName = "ScrollConflict_OCUITests"
+               ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A01261E01EAF5DA7007A9D08"
+            BuildableName = "ScrollConflict_OC.app"
+            BlueprintName = "ScrollConflict_OC"
+            ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A01261E01EAF5DA7007A9D08"
+            BuildableName = "ScrollConflict_OC.app"
+            BlueprintName = "ScrollConflict_OC"
+            ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A01261E01EAF5DA7007A9D08"
+            BuildableName = "ScrollConflict_OC.app"
+            BlueprintName = "ScrollConflict_OC"
+            ReferencedContainer = "container:ScrollConflict_OC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
